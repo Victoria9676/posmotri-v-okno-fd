@@ -191,6 +191,7 @@ ol {
 }
 
 .content__list-container {
+  position: relative;
   block-size: 298px;
   overflow-y: auto;
   margin-top: 26px;
