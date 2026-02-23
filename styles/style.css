@@ -63,7 +63,8 @@ ol {
 .result__video-container {
   position: relative;
   inline-size: 711px;
-  margin: 0 0 11px;
+  block-size: 386px;
+  margin: 0 0 16px;
 }
 
 .search-form {
@@ -204,6 +205,11 @@ ol {
   gap: 30px;
 }
 
+.content__list-item {
+  padding-right: 3px;
+  padding-left: 3px;
+}
+
 .content__card-link {
   display: block;
   text-decoration-line: none;
@@ -305,7 +311,8 @@ ol {
   align-items: center;
   align-self: end;
   inline-size: 194px;
-  block-size: 34px;
+  min-width: 34px;
+  padding: 6px 0;
 }
 
 .more-button {
